@@ -7,6 +7,8 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
+/// @title Weekend 4 Project
+/// @author Team G
 contract TeamG is ERC721, ERC721URIStorage, ERC721Burnable, AccessControl {
     using Counters for Counters.Counter;
 
